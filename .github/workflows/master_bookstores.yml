@@ -57,5 +57,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'bookstores'
-          slot-name: 'production'  # or remove if default slot
+          
           package: './myapp'  # Updated package path
